@@ -457,8 +457,13 @@ if ($SECTION === 'borrow') {
 </head>
 
 <body>
-    <nav>
+
+    <h1>Library Management System</h1>
+
+    <nav>   
         <a href="../../auth/signout.php">Sign Out</a>
+    </nav>
+    <nav>
         <a href="index.php?section=students">Students</a> |
         <a href="index.php?section=books">Books</a> |
         <a href="index.php?section=borrow">Borrow</a>
